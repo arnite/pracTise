@@ -66,6 +66,7 @@ const sendEmail = async (options) => {
     },
   });
 
+  //Mail options
   const mailOptions = {
     from: "Udemba Arnold <udembao429@gmail.com>",
     to: options.email,
