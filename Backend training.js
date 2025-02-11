@@ -57,7 +57,7 @@ class AppError extends Error {
 const nodemailer = require("nodemailer");
 
 const sendEmail = async (options) => {
-  const tansporter = nodemailer.createTransporter({
+  const transporter = nodemailer.createTransporter({
     host: process.env.EMAIL_HOST,
     port: process.env.EMAIL_PORT,
     auth: {
