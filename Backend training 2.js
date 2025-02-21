@@ -1,4 +1,4 @@
-//Filtering, sorting and pagination
+//Filtering, sorting and pagination.
 class APIFeatures {
   constructor(query, queryString) {
     this.query = query;
