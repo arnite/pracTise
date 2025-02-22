@@ -4,7 +4,7 @@ const sendErrorDev = (err, res) => {
     status: err.status,
     error: err, //it is supposed to be 'error' not 'err'
     message: err.message,
-    stack: err.stack, // you missed 'stack'
+    stack: err.stack, // you missed 'stack'..
   });
 };
 
