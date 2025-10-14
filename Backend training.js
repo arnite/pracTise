@@ -1,12 +1,12 @@
-// //1. ERROR HANDLING
-// const sendErrorDev = (err, res) => {
-//   res.status(err.statusCode).json({
-//     status: err.status,
-//     error: err, //it is supposed to be 'error' not 'err'
-//     message: err.message,
-//     stack: err.stack, // you missed 'stack'
-//   });
-// };
+//1. ERROR HANDLING
+const sendErrorDev = (err, res) => {
+  res.status(err.statusCode).json({
+    status: err.status,
+    error: err, //it is supposed to be 'error' not 'err'
+    message: err.message,
+    stack: err.stack, // you missed 'stack'
+  });
+};
 
 // const sendErrorProd = (err, res) => {
 //   if (err.isOperational) {

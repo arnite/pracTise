@@ -10,7 +10,6 @@
 //     const queryObj = { ...queryString };
 //     const excludedFields = ["page", "fields", "sort", "limit"];
 //     excludedFields.forEach((el) => delete queryObj[el]);
-
 //     //Advanced Filtering
 //     let queryStr = JSON.stringify(queryObj);
 //     queryStr = queryStr.replace(/\b(lt|gt|lte|gte)\b/g, (match) => `$${match}`);

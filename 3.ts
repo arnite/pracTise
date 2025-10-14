@@ -35,8 +35,5 @@
 // const cat: Animal = {species: "cat", legs: 4}
 // validateAnimal(cat)
 
-// 
 
-function wrapValue<T>(value: T): [T] {
-    return 
-}
+
