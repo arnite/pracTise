@@ -39,8 +39,9 @@
 
 # Take a word from the user and print it reversed.
 
-word = input("Write word to reverse: ")
+# word = input("Write word to reverse: ")
 
-reversedWord = word[::-1]
+# reversedWord = word[::-1]
 
-print(f"reversed: {reversedWord}")
+# print(f"reversed: {reversedWord}")
+

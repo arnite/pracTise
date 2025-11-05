@@ -4,19 +4,16 @@
 // Then, log them using a template literal in one line.
 // Use an if statement to print “Welcome, Admin!” if isAdmin is true.
 
-
 // Question 2: Arrays and Tuples
 // ------------------------------
 // Create an array colors that can only contain strings.
 // Add three color names to it and print the first one.
 // Then, use a for...of loop to print all colors in uppercase.
 
-
 // Question 3: Enums + Control Flow
 // --------------------------------
 // Define a numeric enum called Direction with values Up, Down, Left, and Right.
 // Write a function move(direction: Direction) that uses a switch statement to log a message depending on the direction chosen.
-
 
 // Question 4: Type Aliases
 // ------------------------
@@ -24,18 +21,15 @@
 // Then, create a variable user1 of type User.
 // Use an if...else statement to check if user1.age is above 18 and log “Adult” or “Minor”.
 
-
 // Question 5: Function Typing + Conditional Logic
 // -----------------------------------------------
 // Write a function add that takes two numbers and returns their sum.
 // Add a check to ensure both inputs are non-negative; if not, return 0.
 
-
 // Question 6: Interfaces + Type Narrowing
 // ---------------------------------------
 // Create an interface Car with properties brand (string) and year (number).
 // Then, create a function printCar(car: Car | null) that uses a type guard (if car) to safely log its brand.
-
 
 // Question 7: Classes + Control Flow
 // ----------------------------------
@@ -43,19 +37,16 @@
 // Add a method introduce() that returns a string introducing the person.
 // Inside introduce(), use an if statement to add “(Adult)” if the person is older than 18.
 
-
 // Question 8: Objects and Type Assertions
 // ---------------------------------------
 // Create a variable input of type any with a string value.
 // Use a type assertion to treat it as a string and call .toUpperCase().
 // Check with typeof before calling the method to ensure it’s safe.
 
-
 // Question 9: Literal Types + Conditional Display
 // -----------------------------------------------
 // Define a variable status that can only be "success", "error", or "loading".
 // Write a function showStatus(status: "success" | "error" | "loading") that uses if...else to log a message for each case.
-
 
 // Question 10: Generic Functions + Type Checking
 // ----------------------------------------------
@@ -73,14 +64,13 @@
 //     console.log(`Welcome ${username}`)
 // }
 
-    
 // const colors: string[] = ["ORANGE", "red", "PURPLE"]
 // console.log(colors[0])
 
 // for (let color of colors) {
 //     console.log(color.toUpperCase())
 // }
-   
+
 // enum Direction {
 //     Up,
 //     Down,
@@ -125,7 +115,6 @@
 //     return a + b;
 // }
 
-
 // console.log(add(0, 0))
 // interface Car {
 //     Brand: string,
@@ -137,13 +126,11 @@
 //          console.log(car!.Brand)
 //     } else {
 //         console.log("empty")
-//     } 
+//     }
 // }
-
 
 // const car: Car = {Brand: "Toyota", Year: 2023}
 // printCar(car)
-
 
 // class Person {
 //     name: string
@@ -167,7 +154,7 @@
 
 // if (typeof upper === "string") {
 //     upper = upper.toUpperCase();
-// } 
+// }
 
 // console.log(upper)
 
@@ -188,8 +175,8 @@
 // showStatus(status)
 
 function identity<T>(value: T): T {
-    console.log(typeof value)
-    return value;
+  console.log("It is working");
+  return value;
 }
 
-identity([{name: "arnold"}, {name: "nonso"}])
+identity([{ name: "arnold" }, { name: "nonso" }]);
