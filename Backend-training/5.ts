@@ -116,18 +116,71 @@
 
 // greet("Nonso");
 
-interface Animal {
-  species: string;
-  legs: number;
-}
+// interface Animal {
+//   species: string;
+//   legs: number;
+// }
 
-function validateAnimal(animal: Animal): void {
-  if (animal.legs > 0) {
-    console.log("Valid animal");
-  } else {
-    console.log(`Invalid animal: ${animal.legs}legs`);
-  }
-}
+// function validateAnimal(animal: Animal): void {
+//   if (animal.legs > 0) {
+//     console.log("Valid animal");
+//   } else {
+//     console.log(`Invalid animal: ${animal.legs}legs`);
+//   }
+// }
 
-const pig: Animal = { species: "mammal", legs: 3 };
-validateAnimal(pig);
+// const pig: Animal = { species: "mammal", legs: 3 };
+// validateAnimal(pig);
+
+// class Rectangle {
+//   width: number;
+//   height: number;
+
+//   constructor(width: number, height: number) {
+//     this.width = width;
+//     this.height = height;
+//   }
+
+//   area(): number | string {
+//     if (this.width <= 0 && this.height <= 0) {
+//       return "invalid dimension";
+//     }
+
+//     return this.width * this.height;
+//   }
+// }
+
+// const exercise = new Rectangle(0, 7).area();
+// console.log(exercise);
+
+// interface obj {
+//   name: string;
+// }
+// const data: any = { name: "Alex" } as obj;
+
+// if (typeof data === "object") {
+//   console.log(typeof data);
+//   console.log(data.name);
+// } else {
+//   console.log("can't access type");
+// }
+// type mode = "auto" | "manual" | "off";
+
+// function modeCheck(moder: mode): undefined {
+//   switch (moder) {
+//     case "auto":
+//       console.log("System on AUTO.");
+//       break;
+//     case "manual":
+//       console.log("System on manual");
+//       break;
+//     case "off":
+//       console.log("System is Off");
+//   }
+// }
+
+// modeCheck("off");
+
+// function wrapvalue<T>(value: T): T[] {
+//   return [value];
+// }
