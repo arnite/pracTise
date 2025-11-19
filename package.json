@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "Backend training 2.js",
   "scripts": {
-    "practice": "npx ts-node Backend-training/5.ts"
+    "practice": "npx ts-node Backend-training/6.ts"
   },
   "keywords": [],
   "author": "",
